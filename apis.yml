@@ -1,8 +1,24 @@
 aid: tilda
-name: Tilda
-description: Tilda is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Tilda Research
+description: Tilda Research deploys AI Teammates that perform the operational work
+  of clinical trials for sponsors, CROs, and research sites — automating study workflows,
+  data capture, trial monitoring, and regulatory compliance. Founded by Ram Yalamanchili
+  and backed by 8VC, the company operates the Tilda Sense clinical-research platform
+  (sense.tilda.bio) and advertises SOC 2 and HIPAA compliance via a Vanta-hosted trust
+  center, but publishes no public developer program or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tilda/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/CGtJprL60ZOP5wXBxaRpfP4a7nw.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Clinical Trials
+- Clinical Research
+- Artificial Intelligence
+- AI Agents
+- Healthcare
+- Life Sciences
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,30 @@ maintainers:
 common:
 - type: Website
   url: https://tilda.bio
+- type: Blog
+  url: https://tilda.bio/articles
+- type: PrivacyPolicy
+  url: https://tilda.bio/privacy-policy
+- type: TermsOfService
+  url: https://tilda.bio/terms
+- type: Login
+  url: https://sense.tilda.bio/
+- type: Support
+  url: mailto:info@tilda.bio
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tildaresearch
+- type: TrustCenter
+  url: security/tilda-trust-center.yml
+- type: Compliance
+  url: https://trust.tilda.bio/
+- type: DomainSecurity
+  url: security/tilda-domain-security.yml
+- type: WellKnown
+  url: well-known/tilda-well-known.yml
+- type: LLMsTxt
+  url: llms/tilda-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

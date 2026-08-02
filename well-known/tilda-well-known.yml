@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://tilda.bio and https://api.tilda.bio
+hosts:
+- host: https://tilda.bio
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://api.tilda.bio
+  notes: Backend API host for the Tilda Sense application (sense.tilda.bio preconnects
+    to it); serves 404 on all discovery paths probed — no public API surface.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /openapi.yaml
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /docs
+    status: 404

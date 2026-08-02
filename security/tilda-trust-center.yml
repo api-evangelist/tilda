@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.tilda.bio/
+platform: vanta
+title: Tilda Trust Center
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://tilda.bio/
+  kind: footer-links
+  detail: Homepage footer "Privacy and Compliance" section links both "SOC 2" and
+    "HIPAA" to https://trust.tilda.bio/
+- source: https://trust.tilda.bio/
+  kind: trust-center
+  detail: Vanta-hosted trust center titled "Tilda Trust Center" (assets served from
+    assets.vanta.com); certification documents are gated behind the Vanta SPA.
+notes: The trust center is a JavaScript SPA, so the certification list above comes
+  from the compliance claims Tilda publishes on its own site footer (SOC 2, HIPAA),
+  both of which link to this trust center. No additional certifications were verifiable
+  from the static page.

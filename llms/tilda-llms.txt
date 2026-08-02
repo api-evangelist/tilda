@@ -1,0 +1,32 @@
+# Tilda Research
+
+> Tilda Research (tilda.bio) deploys AI Teammates that perform the operational work of clinical trials for sponsors, CROs, and research sites — automating study workflows, data capture, trial monitoring, and regulatory compliance. Founded by Ram Yalamanchili and backed by 8VC. Its product, Tilda Sense, is a clinical-research platform (sense.tilda.bio); the company publishes no public developer program or API documentation.
+
+## Company
+
+- [Website](https://tilda.bio/): Tilda Research — AI Teammates for Clinical Research
+- [CEO's Message](https://tilda.bio/ceos-message): Open letter from founder/CEO Ram Yalamanchili
+- [Leadership](https://tilda.bio/leadership): Leadership team
+- [Careers](https://tilda.bio/careers): Open roles
+- [Articles](https://tilda.bio/articles): Company blog on AI in clinical trials
+- [Publications](https://tilda.bio/publications): Research publications
+- [Podcasts](https://tilda.bio/podcasts): Company podcast episodes
+- [LinkedIn](https://www.linkedin.com/company/tildaresearch): Company LinkedIn
+
+## Product
+
+- [Tilda Sense](https://sense.tilda.bio/): Product application login (backend at api.tilda.bio; no public API surface)
+- [Book a demo](https://calendly.com/tilda-intro/book-a-demo): Demo scheduling
+
+## Trust and Legal
+
+- [Trust Center](https://trust.tilda.bio/): Vanta-hosted trust center; site footer advertises SOC 2 and HIPAA
+- [Privacy Policy](https://tilda.bio/privacy-policy)
+- [Terms](https://tilda.bio/terms)
+
+## API Evangelist Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/tilda/refs/heads/main/apis.yml): Machine-readable profile of Tilda Research
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/tilda/refs/heads/main/security/tilda-domain-security.yml): Probed TLS/HSTS/DNS posture
+- [Trust Center Profile](https://raw.githubusercontent.com/api-evangelist/tilda/refs/heads/main/security/tilda-trust-center.yml): Captured compliance posture
+- [Well-Known Index](https://raw.githubusercontent.com/api-evangelist/tilda/refs/heads/main/well-known/tilda-well-known.yml): Probed discovery endpoints (all 404)
