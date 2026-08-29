@@ -7,6 +7,17 @@ description: Tilda Research deploys AI Teammates that perform the operational wo
   (sense.tilda.bio) and advertises SOC 2 and HIPAA compliance via a Vanta-hosted trust
   center, but publishes no public developer program or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tilda/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
